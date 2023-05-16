@@ -1,0 +1,132 @@
+body {
+    display: flex;
+    margin: 0;
+}
+
+ul, li {
+    list-style: none;
+    margin: 0%;
+    padding: 0;
+}
+
+li {
+    border: 1px solid rgb(207, 207, 207);
+}
+
+.contactos {
+    background-color: #fff;
+    flex: 0 0 20%;
+    display: flex;
+    flex-direction: column;
+}
+
+.usuario {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.texto-usuario {
+    display: flex;
+    flex-direction: column;
+    
+}
+.primer-parrafo {
+    margin-bottom: 1%;
+}
+.segundo-parrafo {
+    color: #b1b1b1;
+    margin-top: 0%;
+}
+
+/* BOTÓN  */
+.boton {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+}
+
+button {
+    background-color: #c3a5cc;
+  color: #ffffff;
+  border: none;
+  padding: 10px 20px;
+}
+
+button:hover {
+    background-color: rgb(133, 62, 133);
+    cursor: pointer;
+}
+
+button:focus{
+    background-color: #e8ebe4;
+    cursor: pointer
+}
+
+/* OTROS USUARIOS  */
+
+.info-usuario {
+    display: flex;
+    align-items: center;
+    padding-left: 1px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.info-usuario p {
+    display: flex;
+    padding-left: 15px;
+    margin: 0;
+}
+
+
+.contacto-img {
+    display: flex;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    padding: 5px;
+}
+
+div i{
+    padding-right: 1em;
+    color: rgb(190, 190, 190);
+
+}
+
+.contacto {
+    display: flex;
+    padding:0 25px;
+}
+
+
+/* PRINCIPAL*/
+
+.principal {
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    min-height: 100vh;
+    width: 70em;
+    background-color: #e8ebe4;
+    flex-basis: 70%;
+}
+
+.contenido {
+    max-width: 400px; 
+  }
+
+
+
+.contenido p {
+    text-align: justify;
+    text-align-last: center;
+  }
+
+.contenido img {
+    max-width: 60%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+  }
